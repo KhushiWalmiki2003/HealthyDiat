@@ -6,10 +6,14 @@
       <list>
         <option value="$PROJECT_DIR$/HealthyDiat-Microservice/userservice/pom.xml" />
         <option value="$PROJECT_DIR$/HealthyDiat-Microservice/activityservice/pom.xml" />
+        <option value="$PROJECT_DIR$/HealthyDiat-Microservice/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/HealthyDiet-Microservice/userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/HealthyDiet-Microservice/activityservice/pom.xml" />
+        <option value="$PROJECT_DIR$/HealthyDiet-Microservice/eureka/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_25" default="true" project-jdk-name="25" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="ms-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
