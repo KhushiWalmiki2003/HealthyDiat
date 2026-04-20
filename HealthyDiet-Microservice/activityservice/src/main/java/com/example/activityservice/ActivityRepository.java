@@ -1,9 +1,7 @@
 package com.example.activityservice;
-
 import com.example.activityservice.Model.Activity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository

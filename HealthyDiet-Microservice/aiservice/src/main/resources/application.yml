@@ -1,0 +1,32 @@
+spring:
+   application:
+      name: aiservice
+
+server:
+  port: 8083
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/recommendations
+
+
+eureka :
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${server.port}
+
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+gemini:
+  api:
+    url: ${GEMINI_API_URL}
+    key: ${GEMINI_API_KEY}
+
+rabbitmq:
+  queue:
+    name: activity.queue
+  exchange:
+    name: activityExchange
+  routing:
+    key: activityRoutingKey

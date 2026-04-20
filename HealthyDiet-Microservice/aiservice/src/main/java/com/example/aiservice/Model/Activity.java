@@ -1,14 +1,13 @@
-package com.example.activityservice.dto;
-import com.example.activityservice.Model.ActivityType;
+package com.example.aiservice.model;
 import lombok.Data;
 import java.time.LocalDateTime;
 import java.util.Map;
-@Data
-public class ActivityResponse {
 
+@Data
+public class Activity {
     private String id;
     private String userId;
-    private ActivityType type;
+   private  String type;
     private Integer duration;
     private Integer caloriesBurned;
     private LocalDateTime startTime;
