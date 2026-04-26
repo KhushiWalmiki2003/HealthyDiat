@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/aiservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/configserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/gateway /src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HealthyDiet-Microservice/userservice/src/main/java" charset="UTF-8" />
   </component>
 </project>
